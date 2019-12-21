@@ -1,138 +1,180 @@
-body{
-  text-align: center;
-  background-color: #f0e8c5;
+
+body {
+	font-family: Lato;
+	color: black;
+
+
 }
-.navbar {
-  height: 80px;
-  background-color: transparent;
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	background: black;
+	color: white;
+	margin-top: 100px;
+	text-transform: uppercase;
+}
+
+#intro {
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: IMAGE;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#projectsIntro {
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: IMAGE;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#compbioIntro{
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: IMAGE;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#resumeIntro {
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: IMAGE;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#contactIntro {
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: IMAGE;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#content {
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+#content h1 {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 60%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+#content h3 {
+	margin: 0 auto;
+	width: 60%;
+}
+
+#about {
+	margin-top: 10%;
+	text-align: center;
+}
+
+#aboutMe {
+	text-transform: uppercase;
+}
+
+.image-box {
+	width: 25%;
+	margin-top: 30px;
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+
+.btn {
+  letter-spacing: 1px;
+  background-color: white;
   border: none;
-  color: white;
-  z-index: 100;
-  transition: background-color 1s ease 0s;
+  color: black;
+  padding: 12px 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.btn:hover {
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+#projects li{
+	list-style: none;
+	margin: 10px;
 }
 
 
-.navbar-default {
-
-   .navbar-brand {
-     margin-top: 10px;
-     color: white;
-
-      &:hover {
-         color: #C57ED3;
-         border: 1px solid #C57ED3;
-      }
-   }
-
-  .navbar-nav {
-
-    > li {
-
-      > a {
-        color: white;
-        margin: 10px 5px 5px 5px;
-
-      }
-      > a:hover, > a:active, > a:focus {
-        color: #C57ED3;
-        border: 1px solid #C57ED3;
-      }
-      > a:visited {
-        color: #C57ED3;
-        text-decoration: none;
-      }
-
-    } //end li
-
-    > .active {
-
-      > a, > a:hover, > a:focus {
-        background-color: transparent;
-        color: #C57ED3;
-      }
-
-    }
-
-  } //end .navbar-nav
-
-  //Collapsed styles
-  .navbar-toggle {
-    border-color: #C57ED3;
-
-      &:hover, &:focus {
-        background-color: #490D40;
-      }
 
 
-
-      .icon-bar {
-        color: #C57ED3;
-        background-color: #C57ED3;
-
-      }
-  }
-
-  .navbar-collapse.collapse.in ul {
-    background-color: #490D40;
-  }
-
-} //end .navbar-default
-
-
-
-/* Solid class attached on scroll past first section */
-
-.navbar.solid {
-  background-color: #490D40;
-  transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px grey;
-
-    .navbar-brand {
-      color: #C57ED3;
-      transition: color 1s ease 0s;
-    }
-
-    .navbar-nav {
-
-       > li {
-
-          > a {
-            color: #C57ED3;
-            transition: color 1s ease 0s;
-          }
-
-       } //end li
-
-    } //end .navbar-nav
-
+#contact li {
+	display: inline-block;
+	margin:6px;
+	list-style: none;
 }
 
-.top {
-   background-color: #000000;
-   color: #FFFFFF;
-   height: 570px;
-   text-align: center;
-   margin-top: -20px;
-
-   h2 {
-      padding-top: 220px;
-   }
-   p {
-      padding: 20px 80px;
-   }
+#contact ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
 }
 
-.about {
-   background-color: #C57ED3;
-   color: #490D40;
-   height: 600px;
-   text-align: center;
-   margin-top: -20px;
+#contact li a:hover{
+	color: gray;
+}
 
-   h2 {
-      padding-top: 220px;
-   }
-   p {
-      padding: 20px 80px;
-   }
+#contact {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.btn {
+	color: white;
+	background: black;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+#projects {
+	margin-top: 80px;
+	text-align: center;
+}
+
+#note {
+	margin-top: 20px;
+}
+
+.carousel-caption{
+	font-family: 'Mansalva', cursive;
+}
+
+#compbioDescription{
+	max-width: 60%;
 }
