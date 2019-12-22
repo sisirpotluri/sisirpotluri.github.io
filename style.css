@@ -68,6 +68,11 @@ footer {
 	margin-bottom: 0px;
 }
 
+section#content h1 {
+	padding-bottom:10px;
+
+}
+
 #content h3 {
 	margin: 0 auto;
 	width: 60%;
