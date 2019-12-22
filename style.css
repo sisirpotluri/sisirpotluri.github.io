@@ -65,7 +65,7 @@ footer {
 	font-size: 120px;
 	width: 50%;
 	margin: 0 auto;
-	
+
 }
 
 #content h3 {
@@ -74,6 +74,16 @@ footer {
 }
 
 #about {
+	margin-top: 10%;
+	text-align: center;
+}
+
+#info {
+	margin-top: 10%;
+	text-align: center;
+}
+
+#videos {
 	margin-top: 10%;
 	text-align: center;
 }
