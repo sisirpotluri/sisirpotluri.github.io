@@ -30,19 +30,10 @@ footer {
 	text-align: center;
 	padding-top: 25%;
 	padding-bottom: 25%;
-	background-image: IMAGE;
+	background-image: url("images/projectspic.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 
-}
-
-#compbioIntro{
-	text-align: center;
-	padding-top: 25%;
-	padding-bottom: 25%;
-	background-image: IMAGE;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 #resumeIntro {
@@ -59,7 +50,7 @@ footer {
 	text-align: center;
 	padding-top: 25%;
 	padding-bottom: 25%;
-	background-image: IMAGE;
+	background-image: url("images/contactpic.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 
