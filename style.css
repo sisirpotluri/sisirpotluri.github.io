@@ -74,6 +74,7 @@ footer {
 	border-bottom: 1px solid white;
 	font-size: 120px;
 	width: 50%;
+	margin: 0 auto;
 
 }
 
@@ -94,7 +95,8 @@ footer {
 
 #video {
 	border-top: 2px solid black;
-	width: 40%
+	width: 40%;
+	margin: 0 auto;
 }
 
 #aboutMe {
