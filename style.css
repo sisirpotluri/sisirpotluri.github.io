@@ -60,8 +60,9 @@ footer {
 
 }
 #content h1 {
+	border-top: 1px solid white;
 	border-bottom: 1px solid white;
-	width: 80%;
+	width: 50%;
 	margin: 0 auto;
 	margin-bottom: 40px;
 }
