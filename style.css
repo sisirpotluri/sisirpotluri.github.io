@@ -84,12 +84,17 @@ footer {
 }
 
 #about {
-	margin-top: 10%;
+	margin-top: 2%;
 	text-align: center;
 }
 
+#sectioner {
+	text-align: center;
+	font-size: 80px
+}
+
 #info {
-	margin-top: 10%;
+	margin-top: 2%;
 	text-align: center;
 }
 
