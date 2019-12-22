@@ -93,10 +93,11 @@ footer {
 	text-align: center;
 }
 
-#video {
+#line {
 	border-top: 2px solid black;
 	width: 40%;
 	margin: 0 auto;
+	margin-bottom: 10%
 }
 
 #aboutMe {
