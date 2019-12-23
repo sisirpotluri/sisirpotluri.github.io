@@ -68,7 +68,7 @@ footer {
 	text-align: center;
 	padding-top: 25%;
 	padding-bottom: 25%;
-	background-image: url("images/contactpic.png");
+	background-image: url("images/aboutpic.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -97,6 +97,14 @@ footer {
 #content h3 {
 	margin: 0 auto;
 	width: 60%;
+}
+
+#content h4 {
+	margin: 0 auto;
+	font-size: 40px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	width: 5%;
 }
 
 #about {
