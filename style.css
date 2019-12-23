@@ -105,6 +105,13 @@ footer {
 	width: 60%;
 }
 
+h3 {
+	font-size: 40px;
+	color: #000000;
+	margin: 0 auto;
+	width: 60%;
+}
+
 #about {
 	margin-top: 2%;
 	text-align: center;
