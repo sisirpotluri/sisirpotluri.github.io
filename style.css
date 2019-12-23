@@ -78,6 +78,13 @@ footer {
 
 }
 
+@media all and (max-width: 500px){
+    #content h1{
+        font-size:40px;
+    }
+
+}
+
 #content h3 {
 	margin: 0 auto;
 	width: 60%;
