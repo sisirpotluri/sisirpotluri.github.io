@@ -126,13 +126,13 @@ h3 {
 	font-size: 80px
 }
 
-#resumeTopics {
+#resume h1 {
 	text-align: left;
   color: white;
 	font-size: 100px
 }
 
-#resumeSubTopics {
+#resume h2 {
 	text-align: left;
   color: white;
 	font-size: 60px;
