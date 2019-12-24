@@ -123,6 +123,11 @@ h3 {
 	font-size: 80px
 }
 
+#songs {
+	text-align: center;
+	font-size: 20px
+}
+
 #info {
 	margin-top: 2%;
 	text-align: center;
