@@ -50,11 +50,11 @@ footer {
 
 }
 
-#resumeIntro {
-	text-align: center;
-	padding-top: 25%;
-	padding-bottom: 25%;
-	background-image: IMAGE;
+#resume {
+	text-align: left;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-image: url("images/resumeback.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 
