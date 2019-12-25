@@ -282,7 +282,7 @@ ul{
     }
 
     #songs p{
-        font-size:5px;
+        font-size:15px;
     }
 
     #resume h1 {
@@ -295,10 +295,6 @@ ul{
     	text-align: left;
       color: white;
     	font-size: 15px;
-    }
-    #mapimage a img {
-      height: 150;
-      width: 200;
     }
 
 }
