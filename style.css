@@ -109,7 +109,11 @@ footer {
     #resume h2 {
     	text-align: left;
       color: white;
-    	font-size: 15px;
+    	font-size: 15px
+    }
+    #mapimage a img {
+      height: 150;
+      width: 200
     }
 
 }
@@ -130,6 +134,11 @@ h3 {
 #about {
 	margin-top: 2%;
 	text-align: center;
+}
+
+#mapimage a img {
+  height: 300;
+  width: 400
 }
 
 #sectioner {
