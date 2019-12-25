@@ -282,7 +282,10 @@ ul{
     }
 
     #songs p{
-        font-size:15px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      font-size:7px;
     }
 
     #resume h1 {
