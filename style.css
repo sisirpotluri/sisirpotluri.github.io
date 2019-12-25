@@ -135,8 +135,6 @@ h3 {
 
 #songs {
 	text-align: center;
-  display: flex;
-  align-items: center;
 	font-size: 20px
 }
 
@@ -283,8 +281,6 @@ ul{
 
     #songs p{
       text-align: center;
-      display: flex;
-      align-items: center;
       font-size:7px;
     }
 
