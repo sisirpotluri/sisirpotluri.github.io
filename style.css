@@ -99,23 +99,23 @@ footer {
     }
 
     #songs p{
-        font-size:10px;
+        font-size:7px;
     }
 
     #resume h1 {
     	text-align: left;
       color: white;
-    	font-size: 40px
+    	font-size: 40px;
     }
 
     #resume h2 {
     	text-align: left;
       color: white;
-    	font-size: 15px
+    	font-size: 15px;
     }
     #mapimage a {
       height: 150;
-      width: 200
+      width: 200;
     }
 
 }
