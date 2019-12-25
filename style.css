@@ -282,7 +282,7 @@ ul{
     }
 
     #songs p{
-        font-size:7px;
+        font-size:5px;
     }
 
     #resume h1 {
@@ -296,7 +296,7 @@ ul{
       color: white;
     	font-size: 15px;
     }
-    #mapimage a {
+    #mapimage a img {
       height: 150;
       width: 200;
     }
