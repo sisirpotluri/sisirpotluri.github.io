@@ -40,6 +40,10 @@ footer {
 
 }
 
+.navbar-custom { 
+    background-color: #FFCE39; 
+} 
+
 #ideasHeading {
 	text-align: center;
 	padding-top: 25%;
@@ -78,10 +82,6 @@ footer {
 	background-size: cover;
 	background-repeat: no-repeat;
 
-}
-
-#navbar-toggler {
-	color: #FFCE39;
 }
 
 #content {
