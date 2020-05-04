@@ -174,7 +174,7 @@ h3 {
 
 .btn {
   letter-spacing: 1px;
-  background-color: white;
+  background-color: #FFCE39;
   border: none;
   color: black;
   padding: 12px 30px;
@@ -229,7 +229,6 @@ ul{
 #contact {
 	margin-top: 50px;
 	text-align: center;
-  background-color: #FFCE39;
 }
 
 #idea ul li a{
