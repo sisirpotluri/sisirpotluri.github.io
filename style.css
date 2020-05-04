@@ -174,7 +174,7 @@ h3 {
 
 .btn {
   letter-spacing: 1px;
-  background-color: #FFCE39;
+  background-color: black;
   border: none;
   color: black;
   padding: 12px 30px;
@@ -184,7 +184,7 @@ h3 {
 }
 
 .btn:hover {
-  background-color: gray;
+  background-color: #FFCE39;
   transform: scale(1.2);
 }
 
