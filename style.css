@@ -44,7 +44,7 @@ footer {
     background-color: black; 
 } 
 
-.custom-toggler.navbar-toggler {
+navbar-toggler {
   color: #FFCE39;
 }
 
