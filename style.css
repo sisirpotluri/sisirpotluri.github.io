@@ -44,6 +44,10 @@ footer {
     background-color: black; 
 } 
 
+.custom-toggler.navbar-toggler {
+  border-color: #FFCE39;
+}
+
 #ideasHeading {
 	text-align: center;
 	padding-top: 25%;
