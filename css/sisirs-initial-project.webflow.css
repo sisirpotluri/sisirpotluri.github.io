@@ -2412,11 +2412,12 @@ a {
     padding-left: 0px;
   }
   .sectionsubheadline {
-    font-size: 10px;
+    padding-left: 2px;
+    font-size: 12px;
   }
   .sectionstarter {
     margin-left: 0px;
-    padding-left: 1px;
+    padding-left: 2px;
     font-size: 8px;
   }
   .about {
@@ -2444,7 +2445,7 @@ a {
   }
   .sectionheadline {
     margin-left: 0px;
-    font-size: 18px;
+    font-size: 26px;
   }
   .icon-2 {
     color: #60f1e0;
@@ -2594,6 +2595,7 @@ a {
   }
   .project2 {
     width: 300px;
+    margin-left: 0px;
   }
   .project3 {
     width: 300px;
@@ -2636,6 +2638,7 @@ a {
     background-color: transparent;
   }
   .skillslist {
+    padding-top: 5px;
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -2671,6 +2674,7 @@ a {
     align-items: flex-start;
   }
   .codingtechtype {
+    margin-bottom: 6px;
     font-size: 6px;
   }
   .codingtechlabel {
@@ -2709,7 +2713,12 @@ a {
   .foooter {
     padding-top: 10px;
   }
+  .footerinfo {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
   .footercopyright {
+    margin-top: 10px;
     padding-bottom: 10px;
   }
   .footerheadline {
