@@ -394,7 +394,7 @@ a {
 .nav-link-3 {
   font-family: 'Space Mono', sans-serif;
   color: #60f1e0;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .nav-link-3.w--current {
@@ -402,6 +402,7 @@ a {
   -ms-transform: translate(0px, -4px);
   transform: translate(0px, -4px);
   color: #719cf8;
+  font-size: 12px;
 }
 
 .nav-link-4 {
@@ -469,7 +470,7 @@ a {
   opacity: 1;
   font-family: 'Space Mono', sans-serif;
   color: #6c96ff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -977,6 +978,10 @@ a {
 }
 
 .allprojects {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -1100,7 +1105,7 @@ a {
   width: 700px;
   margin-right: auto;
   margin-bottom: 20px;
-  margin-left: 360px;
+  margin-left: 240px;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
@@ -1178,7 +1183,7 @@ a {
 .project2image {
   display: block;
   max-width: none;
-  margin-right: 140px;
+  margin-right: 40px;
   box-shadow: 0 6px 8px 3px #000;
   opacity: 0.65;
 }
@@ -1300,7 +1305,7 @@ a {
   margin-top: 5px;
   margin-bottom: 5px;
   font-family: 'Space Mono', sans-serif;
-  color: #a3cbff;
+  color: #a3eeff;
   font-size: 32px;
 }
 
@@ -1452,6 +1457,9 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
+  .sectionstarter {
+    font-size: 14px;
+  }
   .projectssection {
     text-align: center;
   }
@@ -1463,29 +1471,48 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
   }
   .project2 {
+    margin-bottom: 10px;
     margin-left: 220px;
+  }
+  .project3 {
+    margin-bottom: 10px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .nav-link-3 {
-    font-size: 16px;
+    font-size: 12px;
   }
   .nav-link-3.w--current {
     -webkit-transform: translate(0px, -2px) perspective(0px);
     transform: translate(0px, -2px) perspective(0px);
     color: #719cf8;
-    font-size: 16px;
+    font-size: 12px;
+  }
+  .sectionsubheadline {
+    padding-left: 1px;
+  }
+  .sectionstarter {
+    font-size: 14px;
   }
   .text-span {
     color: #a3eeff;
@@ -1548,10 +1575,10 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -1562,11 +1589,12 @@ a {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
   }
   .project1 {
+    width: 680px;
     margin-left: 60px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
@@ -1577,19 +1605,25 @@ a {
     color: #a3eeff;
   }
   .project2 {
+    width: 680px;
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: 180px;
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
     align-self: flex-end;
   }
   .project3 {
-    margin-left: 20px;
+    width: 700px;
+    margin-right: 200px;
+    margin-left: 40px;
   }
   .columns3 {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+  }
+  .project2image {
+    margin-right: 60px;
   }
   .codingtechrank {
     color: #a3eeff;
@@ -1640,78 +1674,133 @@ a {
 }
 
 @media screen and (min-width: 1920px) {
+  .body {
+    margin-right: 220px;
+    margin-left: 220px;
+    padding-right: 140px;
+    padding-left: 140px;
+  }
+  .hello {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
   .sectionsubheadline {
-    font-size: 42px;
+    padding-left: 3px;
+    font-size: 27px;
   }
   .sectionstarter {
-    font-size: 22px;
+    padding-left: 5px;
+    font-size: 14px;
   }
   .about {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .sectionheadline {
-    font-size: 84px;
+    font-size: 65px;
   }
   .button-2 {
-    font-size: 30px;
+    font-size: 16px;
+  }
+  .skills {
+    margin-right: 140px;
+    margin-left: 140px;
+  }
+  .experiencesection {
+    margin-right: 100px;
+    margin-left: 100px;
   }
   .experienceplace {
-    font-size: 20px;
+    font-size: 12px;
   }
   .experiencename {
-    font-size: 50px;
+    font-size: 40px;
   }
   .aboutstart {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .projects {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     text-align: center;
   }
   .projectsinfo {
     text-align: left;
   }
   .allprojects {
-    display: inline-block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
     text-align: left;
   }
   .project1 {
-    width: 1000px;
+    width: 800px;
+    margin-left: 80px;
   }
   .projecttype {
-    font-size: 20px;
+    font-size: 14px;
   }
   .projectname {
-    font-size: 52px;
+    font-size: 40px;
   }
   .aboutproject {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .project2 {
-    width: 1000px;
+    width: 800px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
   }
   .project3 {
-    width: 1000px;
+    width: 800px;
+    margin-left: 60px;
   }
   .skilllabel {
-    font-size: 50px;
+    font-size: 40px;
   }
   .paragraph {
-    font-size: 22px;
+    font-size: 15px;
   }
   .codingtechtype {
-    font-size: 24px;
+    font-size: 13px;
   }
   .codingtechlabel {
-    font-size: 40px;
+    font-size: 30px;
   }
   .columns-3 {
     width: 500px;
   }
   .contactparagraph {
-    font-size: 28px;
+    font-size: 16px;
+  }
+  .footerparagraph {
+    font-size: 14px;
+  }
+  .footertext {
+    font-size: 14px;
   }
 }
 
@@ -1751,10 +1840,21 @@ a {
     margin-top: 100px;
   }
   .sectionsubheadline {
-    font-size: 22px;
+    padding-left: 2px;
+    font-size: 18px;
+  }
+  .sectionstarter {
+    padding-left: 2px;
+    font-size: 12px;
+  }
+  .about {
+    font-size: 12px;
   }
   .column-2 {
     padding-left: 40px;
+  }
+  .sectionheadline {
+    font-size: 40px;
   }
   .button-2 {
     width: 30%;
@@ -1768,6 +1868,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 10px;
     margin-left: 100px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1784,6 +1885,15 @@ a {
     padding-right: 40px;
     padding-left: 40px;
   }
+  .experienceplace {
+    font-size: 12px;
+  }
+  .experiencename {
+    font-size: 26px;
+  }
+  .aboutstart {
+    font-size: 13px;
+  }
   .skillssection {
     margin-right: 20px;
     margin-left: 20px;
@@ -1791,26 +1901,44 @@ a {
   .projects {
     margin-right: 40px;
     margin-left: 40px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .projectsinfo {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
   }
   .project1 {
-    width: 500px;
+    width: 600px;
     margin-left: 0px;
   }
+  .projectname {
+    font-size: 28px;
+  }
+  .aboutproject {
+    font-size: 12px;
+  }
+  .columns-2 {
+    margin-right: 100px;
+  }
   .project2 {
-    width: 400px;
+    width: 500px;
     margin-right: 0px;
-    margin-left: auto;
+    margin-left: 160px;
   }
   .project3 {
-    width: 500px;
+    width: 600px;
     margin-right: 0px;
     margin-left: 0px;
   }
   .project2image {
-    margin-right: 220px;
+    margin-right: 180px;
   }
   .project3image {
-    margin-left: 100px;
+    margin-left: 140px;
   }
   .menu-button-3 {
     color: #fff;
@@ -1822,13 +1950,20 @@ a {
     margin-left: 0px;
     padding-left: 0px;
   }
+  .skilllabel {
+    font-size: 30px;
+  }
   .paragraph {
     padding-left: 10px;
+    font-size: 12px;
   }
   .skillsgrid {
     margin-left: 0px;
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .codingtechlabel {
+    font-size: 24px;
   }
   .contact {
     margin-right: 0px;
@@ -1836,10 +1971,37 @@ a {
   }
   .contactparagraph {
     margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .foooter {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .footerinfo {
-    margin-right: 100px;
-    margin-left: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  .footerheadline {
+    font-size: 40px;
   }
   .footerparagraph {
     font-size: 12px;
@@ -1939,10 +2101,12 @@ a {
     display: flex;
   }
   .nav-link-3 {
-    font-size: 11px;
+    padding: 5px;
+    font-size: 10px;
   }
   .nav-link-3.w--current {
-    font-size: 11px;
+    padding: 5px;
+    font-size: 10px;
   }
   .hello {
     margin-top: 40px;
@@ -1970,6 +2134,7 @@ a {
   .column {
     display: block;
     height: 25%;
+    padding-top: 40px;
     padding-right: 40px;
     padding-left: 40px;
     text-align: center;
@@ -1990,10 +2155,10 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -2004,8 +2169,7 @@ a {
   .experiencesection {
     margin-top: 10px;
     margin-bottom: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 60px 20px 80px;
   }
   .aboutstart {
     font-size: 11px;
@@ -2041,6 +2205,7 @@ a {
   }
   .project2 {
     width: 400px;
+    margin-left: 10px;
   }
   .project3 {
     width: 400px;
@@ -2053,8 +2218,13 @@ a {
   .project1image {
     margin-left: 100px;
   }
+  .project2image {
+    width: 400px;
+    margin-right: 100px;
+  }
   .project3image {
-    margin-left: 100px;
+    width: 400px;
+    margin-left: 140px;
   }
   .menu-button-3 {
     color: #fff;
@@ -2096,8 +2266,14 @@ a {
   .codingtechrank {
     font-size: 20px;
   }
+  .column-8 {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
   .columns-3 {
-    width: 200px;
+    width: 300px;
   }
   .grid-2 {
     display: block;
@@ -2110,9 +2286,19 @@ a {
   }
   .contactsection {
     margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   .contactparagraph {
     font-size: 10px;
+  }
+  .footerheadline {
+    font-size: 30px;
+  }
+  .footerparagraph {
+    font-size: 11px;
+  }
+  .footertext {
+    font-size: 11px;
   }
 }
 
@@ -2243,16 +2429,22 @@ a {
     white-space: normal;
   }
   .columns {
+    margin-bottom: 20px;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+  .column {
+    padding-top: 0px;
+  }
   .column-2 {
+    padding-right: 20px;
+    padding-bottom: 40px;
     padding-left: 20px;
   }
   .sectionheadline {
     margin-left: 0px;
-    font-size: 12px;
+    font-size: 18px;
   }
   .icon-2 {
     color: #60f1e0;
@@ -2266,7 +2458,7 @@ a {
     display: -ms-flexbox;
     display: flex;
     width: 32%;
-    height: 30px;
+    height: 22px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2291,7 +2483,7 @@ a {
     justify-content: space-between;
   }
   .skills {
-    margin-top: 0px;
+    margin-top: 40px;
     margin-right: 10px;
     margin-left: 10px;
     padding-right: 10px;
@@ -2306,18 +2498,21 @@ a {
     margin-left: 10px;
     padding: 10px;
   }
+  .experience {
+    padding-top: 40px;
+  }
   .oneexperience {
     padding-right: 5px;
     padding-left: 5px;
   }
   .experienceplace {
-    font-size: 4px;
+    font-size: 8px;
   }
   .experiencename {
     font-size: 11px;
   }
   .allexperiences {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 10px;
   }
   .experienceinfo {
@@ -2352,6 +2547,7 @@ a {
   .projects {
     margin-right: 0px;
     margin-left: 0px;
+    padding-top: 40px;
     padding-right: 10px;
     padding-left: 20px;
   }
@@ -2359,8 +2555,25 @@ a {
     margin-bottom: 10px;
   }
   .project1 {
+    display: block;
     width: 300px;
     margin-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .projecttype {
     padding-left: 1px;
@@ -2374,6 +2587,7 @@ a {
     line-height: 14px;
   }
   .columns-2 {
+    margin-right: 0px;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -2383,6 +2597,16 @@ a {
   }
   .project3 {
     width: 300px;
+  }
+  .column-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .columns3 {
     -webkit-flex-wrap: wrap;
@@ -2396,6 +2620,7 @@ a {
     margin-left: 0px;
   }
   .project2image {
+    width: 280px;
     max-width: 300px;
     margin-right: 0px;
     -webkit-align-self: center;
@@ -2404,6 +2629,7 @@ a {
     align-self: center;
   }
   .project3image {
+    width: 280px;
     margin-left: 0px;
   }
   .menu-button-3.w--open {
@@ -2417,8 +2643,17 @@ a {
     padding-right: 3px;
     padding-left: 3px;
   }
+  .skilllabel {
+    margin-bottom: 2px;
+    font-size: 16px;
+  }
   .paragraph {
+    padding-left: 0px;
     line-height: 1.4;
+  }
+  .skillsgrid {
+    margin-left: 20px;
+    padding-right: 20px;
   }
   .codingtechinfo {
     display: -webkit-box;
@@ -2434,6 +2669,25 @@ a {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+  .codingtechtype {
+    font-size: 6px;
+  }
+  .codingtechlabel {
+    font-size: 16px;
+  }
+  .codingtechrank {
+    font-size: 18px;
+  }
+  .column-8 {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    text-align: center;
+  }
+  .columns-3 {
+    width: 220px;
   }
   .column-9 {
     padding-right: 0px;
@@ -2451,6 +2705,9 @@ a {
     padding-left: 5px;
     font-size: 8px;
     line-height: 1.4;
+  }
+  .foooter {
+    padding-top: 10px;
   }
   .footercopyright {
     padding-bottom: 10px;
